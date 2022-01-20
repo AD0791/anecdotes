@@ -27,7 +27,7 @@ function App() {
   }
 
   return (
-    <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
+    <div style={{display:'flex', justifyContent:'center', alignItems:'center', height:'100vh'}}>
       <div>
         <h1>Anecdotes</h1>
         <p>{anecdotes[selected]}</p>

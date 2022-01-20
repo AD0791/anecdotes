@@ -16,7 +16,6 @@ function App() {
   const [vote, setVote] = useState(0)
 
   const handleSelect = ()=>{
-    console.log(anecdotes[selected])
     if(anecdotes[selected+1]=== undefined){
       return setSelected(0)
     }
